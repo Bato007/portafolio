@@ -1,0 +1,18 @@
+.card {
+  height: 15vh;
+  margin: 0.5em;
+  background-color: red;
+
+  &:focus {
+    background-color: blue;
+  }
+
+  &:hover {
+    background-color: yellow;
+  }
+
+}
+
+.box {
+  width: 50vw;
+}
